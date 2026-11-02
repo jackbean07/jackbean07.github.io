@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Pomo-Pal</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2>Pomo-Pal</h2>
+								</header>
+                                <header class="major">
+                                    <h3>Background-Desktop game designed to help you study. Collect all kinds of pomo-pals the more you study! As you take breaks, play minigames, feed them, and watch them sleep (cutely)!<h3>
+                                </header>
+							</article>
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2>Pomo-Pals!</h2>
+								</header>
+								<a href="" class="image main"><img src="https://i.ibb.co/7JqK6Mfg/pomo.png" /></a>
+                                <header class="major">
+                                    <h4>Main Theme during the daytime, plays as you feed & play with your pomo-pal.<br> I wanted this to be uplifting and relaxed, to match gameplay!<h4>
+                                </header>
+                                <audio controls>
+                                <source src="Pomo_Pal_Pomo_Pals.mp3
+                                " type="audio/mp3">
+                                </audio>
+							</article>
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2>Kawaii!!!</h2>
+								</header>
+								<a href="#" class="image main"><img src="https://i.ibb.co/Rks5v7yF/Screenshot-2026-11-02-021605.png" /></a>
+                                <header class="major">
+                                    <h4>Title Theme of the game, I wanted a very energizing start,<br> and for it to develop as it played to keep player attention!<h4>
+                                </header>
+                                <audio controls>
+                                    <source src="Pomo_Pal_Kawaii.mp3
+                                        " type="audio/mp3">
+                                </audio>
+							</article>
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2>Zzz...</h2>
+								</header>
+								<a href="#" class="image main"><img src="https://i.ibb.co/m5526kS8/Screenshot-2026-11-02-021957.png" /></a>
+                                <header class="major">
+                                    <h4>As you can guess, this was for the night, when your pomo-pal was asleep.<br> I gave this a very soft, lush piano that subtley developed during<br> the song to a lower tone. This creates a calming sensation!<h4>
+                                </header>
+                                <audio controls>
+                                    <source src="PomoPal_Zzz.mp3
+                                        " type="audio/mp3">
+                                </audio>
+
+							</article>
+
+
+                    <ul class="actions special">
+						<li><a href="index.html" class="button">Home</a></li>
+					</ul>
+
+
+					</div>
+
+
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+            <script>
+    document.addEventListener('play', function(e){
+    var audios = document.getElementsByTagName('audio');
+    for(var i = 0, len = audios.length; i < len;i++){
+        if(audios[i] != e.target){
+            audios[i].pause();
+        }
+    }
+}, true);
+            </script>
+
+	</body>
+</html>

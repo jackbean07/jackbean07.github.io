@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Demos</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2>Ableton Live</h2>
+								</header>
+                                <a href="" class="image main"><img src="https://i.ibb.co/qFJRqGrT/Screenshot-2026-11-01-201717.png" /></a>
+                                <header class="major">
+                                    <h4>Heres a track I produced in Ableton Live, experimenting with the Wave Synth to create a dreamy ambient theme.<h4>
+                                </header>
+                                <audio controls>
+                                <source src="waves.mp3
+                                " type="audio/mp3">
+                                </audio>
+							</article>
+
+
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2>Bandlab Demos</h2>
+								</header>
+								<a href="" class="image main"><img src="https://i.ibb.co/wZvCmg60/Screenshot-2026-11-02-011916.png" /></a>
+                                <header class="major">
+                                    <h4><h4>
+                                </header>
+                                <audio controls>
+                                <source src="Untitled_1.mp3
+                                " type="audio/mp3">
+                                </audio>
+                                <audio controls>
+                                <source src="Untitled_2.mp3
+                                " type="audio/mp3">
+                                </audio>
+                                <audio controls>
+                                <source src="Untitled_3.mp3
+                                " type="audio/mp3">
+                                </audio>
+							</article>
+
+
+
+
+
+
+
+                    <ul class="actions special">
+						<li><a href="index.html" class="button">Home</a></li>
+					</ul>
+
+
+					</div>
+
+
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+            <script>
+    document.addEventListener('play', function(e){
+    var audios = document.getElementsByTagName('audio');
+    for(var i = 0, len = audios.length; i < len;i++){
+        if(audios[i] != e.target){
+            audios[i].pause();
+        }
+    }
+}, true);
+            </script>
+
+	</body>
+</html>

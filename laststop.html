@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Last Stop</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+
+				<!-- Main -->
+					<div id="main">
+
+                        	<article class="post featured">
+								<header class="major">
+									<h2>Last Stop</h2>
+								</header>
+                                <header class="major">
+                                    <h3>Narrative-Puzzle game, where you play as a last-minute detecive trying to solve a messy murder case. You arrive to a gas station at 3am, and work with what you can find to interrogate and lock up the culprit.<h3>
+                                </header>
+							</article>
+
+
+                        	<article class="post featured">
+								<header class="major">
+									<h2>Dialogue System</h2>
+								</header>
+                                <video controls width="1080" height="720">
+                                    <source src="dialoguegood.mp4" type="video/mp4">
+                                </video>
+                                <header class="major">
+                                    <h4>The dialogue is inspired by Animal Crossing.<br> I recorded myself making vowel noises,<br> and created different presets for each character<br>with various pitches and tempos.<h4>
+                                </header>
+							</article>
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2>Stereo Ride</h2>
+								</header>
+								<a href="" class="image main"><img src="https://i.ibb.co/xqcjWsQP/Screenshot-2026-11-01-201333.png" /></a>
+                                <header class="major">
+                                    <h4>Title Track, which I wanted to be laid-back and chill,<br> before the mystery of the game takes off.<br>(Sirens are also incorporated for thematic reasons!) <h4>
+                                </header>
+                                <audio controls>
+                                <source src="LastStop_stereo_ride.mp3
+                                " type="audio/mp3">
+                                </audio>
+							</article>
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2>Hello & Welcome</h2>
+								</header>
+								<a href="#" class="image main"><img src="https://i.ibb.co/W4YqttJF/Screenshot-2026-11-02-013148.png" /></a>
+                                <header class="major">
+                                    <h4>As the player enters the murder scene, this track lures them in,<br> slowly building as they're sucked further into the narrative.<h4>
+                                </header>
+                                <audio controls>
+                                    <source src="LastStop_hello__welcome.mp3
+                                        " type="audio/mp3">
+                                </audio>
+							</article>
+
+
+                                                        <ul class="actions special">
+								<li><a href="index.html" class="button">Home</a></li>
+							</ul>
+
+
+					</div>
+
+
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+            <script>
+    document.addEventListener('play', function(e){
+    var audios = document.getElementsByTagName('audio');
+    for(var i = 0, len = audios.length; i < len;i++){
+        if(audios[i] != e.target){
+            audios[i].pause();
+        }
+    }
+}, true);
+            </script>
+
+	</body>
+</html>
